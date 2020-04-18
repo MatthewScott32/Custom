@@ -1,0 +1,9 @@
+from vehicle import Vehicle
+
+class Jeep(Vehicle):
+    def __init__(self, tow_rope, color, name, speed ):
+        super().__init__(color, name, speed)
+        self.tow_rope = tow_rope
+
+    def drive(self):
+        print(f'"The {self.name} Jeep cruises drives past. Vrooom! Vrooom!"')
