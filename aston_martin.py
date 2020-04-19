@@ -6,4 +6,10 @@ class Aston(Vehicle):
         self.ammo = ammo
 
     def drive(self):
-        print(f'"The {self.name} drives past. RRrrrrrummbbble!"')
+        print(f'The {self.name} drives past. RRrrrrrummbbble!')
+
+    def turn(self, direction):
+        print(f'The {self.name} turned {direction} to avoid the henchman chasing James Bond.')
+
+    def stop(self):
+        print(f'The {self.name} came to a screeching stop at the Casino Royale.')

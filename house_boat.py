@@ -6,4 +6,10 @@ class HouseBoat(Vehicle):
         self.beer = beer
 
     def drive(self):
-        print(f'"The {self.name} House Boat slowly cruises past. Sputter sputter!"')
+        print(f'The {self.name} House Boat slowly cruises past. Sputter sputter!')
+
+    def turn(self, direction):
+        print(f'The {self.name} turned {direction} to head south on a trip to the Gulf.')
+
+    def stop(self):
+        print(f'The {self.name} came to a slow stop to dock at my favorite on water bar.')
